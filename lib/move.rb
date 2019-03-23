@@ -18,4 +18,3 @@ def move(board, index, char = "X")
   board[index] = char
 end
 
-puts "Welcome to Tic Tac Toe!"
