@@ -18,3 +18,8 @@ def move(board, index, char = "X")
   board[index] = char
 end
 
+def print_something(name)
+  puts "Hello #{name}"
+end
+name = "Anna"
+print_something(name)
